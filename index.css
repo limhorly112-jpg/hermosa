@@ -1,0 +1,90 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: white;
+    color: #111;
+}
+.invoice{
+    max-width: 875px;
+    margin: auto;
+}
+h1{
+    font-size: 36px;
+    margin: 0;
+    font-weight: bold;
+}
+.number{
+    color: #555;
+    font-size: 20px;
+    margin-top: 10px;
+}
+hr{
+    border: none;
+    border-top: 2px solid #222;
+    margin: 25px 0 30px;
+}
+.info 
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.date 
+{
+    font-size: 20px;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+.thead {
+    background-color: #222;
+    color: white;
+}
+
+th {
+    text-align: left;
+    padding: 14px 12px;
+}
+td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #ddd;
+}
+th:nth-child(2),
+td:nth-child(2) {
+    width: 15%;
+}
+th:nth-child(3),
+td:nth-child(3) {
+    width: 25%;
+}
+th:last-child,
+td:last-child {
+    text-align: right;
+}
+.total {
+    text-align: right;
+    margin-top: 28px;
+    font-size: 20px;
+}
+
+.total p {
+    margin: 10px 0;
+}
+.total h2 {
+    font-size: 26px;
+    margin: 10px 0;
+}
+.paid {
+    display: inline-block;
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+    padding: 8px 15px;
+    margin-top: 2px;
+}
